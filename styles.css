@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: "Times New Roman"
+    font-size: 22px;
+}
+
+#cabeçalho{
+    height: 100px;
+    background-color: rgb(92, 164, 33);
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Times New Roman"
+    font-size: 50px;
+    
+}
+
+#menu{
+    height: 600px;
+    width: 300px;
+    background-color: rgb(248, 248, 248);
+    float: left;
+    margin-left: 37px;
+    margin-top: 10px;
+}
+
+#conteudo{
+   height: 600px;
+   width: 1140px;
+   background-color: rgb(244, 244, 244);
+   float: left;
+   margin-top: 10px;
+   margin-left: 5px;
+}
+
+#rodape{
+    height: 100px;
+    /*width: 300px;*/
+    background-color: pink;
+    clear: both;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("https://blog.essenciadovale.com/wp-content/uploads/2022/11/Alimentacao-saudavel-e-saborosa-e-possivel.jpg");
+}
+    
+h1, h2{
+    font-size: 35px;
+    top: 2px;
+    text-align: left;
+    
+}
+
+button{
+    background-color: rgb(92, 164, 33);
+    border: 5px;
+    border-radius: 50px;
+    height: 100px;
+    width: 250px;
+    border-style:initial;
+    font-size: 25px;
+    font-family: "Cursive, Lucida Hadwriting";
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    background-color: #f1f1f1;
+}
+  
+li a{
+    display: block;
+    color: #000;
+    padding: 65px 6px;
+    text-decoration: none;
+}
+  
+  /* Change the link color on hover */
+
+  li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+p{
+    font-size: 20px;
+
+}
+
+#logo{
+    float: initial;
+}
+
+#casa{
+    float: right;
+}
+
+h3{
+    font-size: 20px;
+    top: 2px;
+    text-align: left;  
+}
